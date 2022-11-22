@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    ul{
+        list-style-type: none;
+    }
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+footer{
+    padding-top: 66px;
+    color: white;
+    background-color: #373737;
+    .footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            width: 240px;
+            .title{
+                font-weight: 600;
+                font-size: 39.06px;
+                line-height: 123.6%;
+            }
+            .content{
+                margin-top: 25px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150.6%;
+                li{
+                    margin-top: 11px;
+                }
+                .input{
+                    margin-top: 25px;
+                    width: 270px;
+                    border: 1px solid #FF5300;
+                    display: flex;
+                    height: 60px;
+                    input{
+                        background-color: transparent;
+                        padding-left: 18px;
+                        font-size: 16px;
+                    }
+                    .button{
+                        width: 81px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #FF5300;
+                    }
+                }
+            }
+        }
+        .media{
+            margin-top: 18px;
+            display: flex;
+            justify-content: space-between;
+            li{
+                background-color: white;
+                color: #FF5300;
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            li.active{
+                background-color: #FF5300;
+                color: white;
+            }
+        }
+
+    }
+}
+.copyright{
+    margin-top: 60px;
+    background-color: #FF5300;
+    height: 60px;
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
