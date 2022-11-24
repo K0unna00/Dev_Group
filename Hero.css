@@ -1,0 +1,65 @@
+.hero {
+  position: relative;
+  background-color: #FFF7F4;
+}
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 153px 0;
+}
+.hero .container .left {
+  width: 42%;
+}
+.hero .container .left .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7B7B7B;
+  margin-top: 11px;
+}
+.hero .container .left button {
+  margin-top: 60px;
+  background-color: #FF5300;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  transition: 0.4s;
+}
+.hero .container .left button:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.hero .container .right {
+  width: 50%;
+}
+.hero .container .right img {
+  width: 100%;
+}
+.hero .media {
+  position: absolute;
+  top: 217px;
+  right: 0;
+}
+.hero .media li {
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  transition: 0.4s;
+}
+.hero .media li:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+}
+.hero .media .active {
+  color: white;
+  background-color: #FF5300;
+}/*# sourceMappingURL=Hero.css.map */
